@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title> My ASP Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+  
+<body>
+<div id="container">
+
+<div class="header">
+      
+</div>
+           
+    
+<div id="nav"> 
+       
+           
+</div>          
+        
+
+<div class="sidebar">
+      
+</div>
+
+
+<div class="main">
+
+    <asp:ContentPlaceHolder id="MainContent1" runat="server">
+
+    </asp:ContentPlaceHolder>
+
+
+</div> 
+       
+</div>
+     
+</body>
+</html>
